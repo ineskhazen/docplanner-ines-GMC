@@ -1,0 +1,227 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+/* initialisation */
+* {
+  margin: 0%;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+/* header */
+.navbar{
+  display: flex;
+  justify-content: space-between;
+}
+.docp-logo{
+  display: flex; 
+}
+.menu{
+  
+  display: flex;
+  justify-content: space-between;
+}
+
+/* ----------------------------------------------------------------------- */
+/* main */
+/* introduction section */
+.introduction {
+    /*1 Box Model */
+    margin: 2% 10%;
+    /*2 flexBox */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; => didnt work cause we changed the default axis*/
+    align-items: center;
+  }
+  .introduction h1 {
+    font-size: 2.125rem;
+    color: #00b39b;
+    margin: 3%;
+  }
+  .introduction div {
+    display: flex;
+    justify-content: space-around;
+  }
+  .introduction div p {
+    width: 45%;
+    line-height: 1.5;
+  }
+   /* destination section */
+   .destination
+   {
+   margin: 2% 10%;
+   display: flex;
+   justify-content: space-between;
+   }
+
+   .destination div{
+   width: 30%;
+   font-size: x-large;
+   overflow: hidden;}
+
+   .destination div :hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+   
+   .patients{
+     background-color: #00ccb1;
+     color:#fff;
+     
+    }
+    .doctors
+    { background-color:#3d83df;
+      color: #fff;
+
+    }
+    .Clinics{
+      background-color:#1b2734;
+      color: #fff;
+    }
+    
+
+   
+
+  /* identification section */
+  .identification {
+    display: flex;
+  
+  }
+  .identification h1 {
+    width: 30%;
+    margin: 3%;
+   color: #00b39b;
+   letter-spacing: -.3px; 
+   font-size: 1.625em;
+    
+}
+
+  .identification div ul {
+    width:70%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; 
+    line-height: 3; 
+  }
+ 
+
+   /* statistiques section*/
+   .statistiques {
+   display: flex;
+   background: #e5faf8;
+   image: linear-gradient(
+-45deg
+,rgba(0,204,177,.01) 5%,rgba(61,199,223,.1));
+
+   padding: 1.875em 0 .625em;
+   margin: 3.125rem auto 5.5rem;
+}
+
+  .begin {
+    width:50% ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .begin h1{
+    font-size: 2.125rem;
+    color: #00b39b;
+  }
+  .begin img {
+    max-width: 100%;
+	  height: 250%;   
+  }
+  .stat {
+
+    width:50%;    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-right: 20%;
+    margin-bottom: 2%;
+    
+    
+       
+  }
+  .spread{
+    background-color: #fff;
+    text-align: center;
+
+  }
+  .spread h1{
+   color:#00b39b;
+  }
+  .appointments{
+background-color: #fff;
+text-align: center;
+  }
+  .appointments h1{
+    color:#00b39b;
+  }
+  .uniquepatients{
+    background-color: #fff;
+    text-align: center;
+  }
+  .uniquepatients h1{
+    color:#00b39b;
+  }
+  .activedoctors{
+background-color: #fff;
+text-align: center;
+  }
+  .activedoctors h1{
+    color:#00b39b;
+  }
+  
+  
+  /* ---------------------------------------------- */
+ /* purpose section*/
+ .purpose {
+   display: flex;
+  flex-direction: column;
+  /* justify-content: center; => didnt work cause we changed the default axis*/
+  align-items: center;
+ }
+ .purpose h1{
+  color: #00b39b;
+ }
+  /* countries section */
+  .countries {
+    /* Box Model */
+    margin: 2% 10%;
+    /* flexBox */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .country {
+    margin-bottom: 2%;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  /* .country img {
+    border-radius: 8px;
+  } */
+  .country div {
+    /* Position */
+    display: flex;
+    justify-content: space-between;
+    /* Box model */
+    padding: 4%;
+  }
+  .country:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  /* question section */
+  .question {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; => didnt work cause we changed the default axis*/
+    align-items: center;
+   
+  }
+  /* footer */
+  .contact {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; => didnt work cause we changed the default axis*/
+    align-items: center;
+   
+  }
